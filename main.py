@@ -24,7 +24,7 @@ while True:
 	print(logo)
 	print(r+""" [1] Sms bomber\n [2] E-Mail bomber """)
 	a=str(input(c+""" 
-Select your option : """+y))
+[√] Select your option : """+y))
 	if a=="1":
 		os.system("python3 01.py")
 		a=input()
